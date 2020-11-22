@@ -1,0 +1,19 @@
+In this project we are going to use ResNet-18 model to train it on Covid-19 radiography dataset from Kaggle named "Covid-19 Radiography Database". 
+This dataset has roughly 3000 dimensions of Chest X-Ray Scans which are categorized in 3 classes Normal, Viral pneumonia and Covid-19. Our Objective
+is to create an Image classification model that can predict Chest X-Ray scan that belongs to one of these 3 classes with a 
+higher accuracy. We are going to use the concept of Convolutional neural networks, Optimization techniques as Gradient descent.
+
+Project Objectives
+In this Project, we are going to focus on the following objectives:
+
+1.Create custom Dataset and DataLoader in PyTorch
+2.Train a ResNet-18 model in PyTorch to perform Image Classification
+
+The repository contains detailed code step by step:
+Importing Libraries > Preparing Train and Test Sets > Creating Custom Datasets > Transform Image to Tensors > DataLoader preparation and Visualization > Training the Model
+> Applying on Test dataset
+
+
+The model we will train cannot however be used to diagnose Covid-19 as study related to Covid-19 is evolving. The dataset may
+not be sufficient and there may be other hidden factors too. The diagnosis can only be succesfully done by trained medical 
+professionals.
